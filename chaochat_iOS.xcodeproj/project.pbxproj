@@ -23,6 +23,7 @@
 		0B2B1AF925B9638A00D77F4E /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = 0B2B1AF825B9638A00D77F4E /* FirebaseDynamicLinks */; };
 		0B2B1AFB25B9638A00D77F4E /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 0B2B1AFA25B9638A00D77F4E /* FirebaseMessaging */; };
 		0B2B1B0B25B98F0E00D77F4E /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B1B0A25B98F0E00D77F4E /* SignInView.swift */; };
+		0B2B1B1325B9934800D77F4E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B2B1B1225B9934800D77F4E /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		0B2B1ADC25B95D0D00D77F4E /* chaochat_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chaochat_iOSUITests.swift; sourceTree = "<group>"; };
 		0B2B1ADE25B95D0D00D77F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B2B1B0A25B98F0E00D77F4E /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		0B2B1B1225B9934800D77F4E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				0B2B1ABC25B95D0800D77F4E /* SceneDelegate.swift */,
 				0B2B1ABE25B95D0800D77F4E /* ViewController.swift */,
 				0B2B1B0A25B98F0E00D77F4E /* SignInView.swift */,
+				0B2B1B1225B9934800D77F4E /* GoogleService-Info.plist */,
 				0B2B1AC025B95D0800D77F4E /* Main.storyboard */,
 				0B2B1AC325B95D0A00D77F4E /* Assets.xcassets */,
 				0B2B1AC525B95D0A00D77F4E /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B2B1B1325B9934800D77F4E /* GoogleService-Info.plist in Resources */,
 				0B2B1AC725B95D0A00D77F4E /* LaunchScreen.storyboard in Resources */,
 				0B2B1AC425B95D0A00D77F4E /* Assets.xcassets in Resources */,
 				0B2B1AC225B95D0800D77F4E /* Main.storyboard in Resources */,
