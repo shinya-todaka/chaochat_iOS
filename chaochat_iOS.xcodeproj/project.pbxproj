@@ -25,7 +25,6 @@
 		0B2B1B2B25B998AA00D77F4E /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B1B2A25B998AA00D77F4E /* RootView.swift */; };
 		0B2B1B3625B999F100D77F4E /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B1B3525B999F100D77F4E /* ChatView.swift */; };
 		0B2B1B3F25B99A7900D77F4E /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B1B3E25B99A7900D77F4E /* Message.swift */; };
-		0B2B1B5625BA920E00D77F4E /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B1B5525BA920D00D77F4E /* ChatViewController.swift */; };
 		0B2B1B6925BB0AFD00D77F4E /* KeyboardAwareModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B1B6825BB0AFC00D77F4E /* KeyboardAwareModifier.swift */; };
 		0B2B1B7A25BB0CFA00D77F4E /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B1B7925BB0CFA00D77F4E /* MessageView.swift */; };
 		0B2B1B8125BB131B00D77F4E /* MessagesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B1B8025BB131A00D77F4E /* MessagesViewModel.swift */; };
@@ -87,7 +86,6 @@
 		0B2B1B2A25B998AA00D77F4E /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		0B2B1B3525B999F100D77F4E /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		0B2B1B3E25B99A7900D77F4E /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
-		0B2B1B5525BA920D00D77F4E /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		0B2B1B6825BB0AFC00D77F4E /* KeyboardAwareModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAwareModifier.swift; sourceTree = "<group>"; };
 		0B2B1B7925BB0CFA00D77F4E /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		0B2B1B8025BB131A00D77F4E /* MessagesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewModel.swift; sourceTree = "<group>"; };
@@ -177,9 +175,6 @@
 				0B2B1B3D25B99A6500D77F4E /* Model */,
 				0B3EB5FC25BD859D00A4AF20 /* Utils */,
 				0B2B1ABC25B95D0800D77F4E /* App.swift */,
-				0B2B1B6825BB0AFC00D77F4E /* KeyboardAwareModifier.swift */,
-				0B2B1B5525BA920D00D77F4E /* ChatViewController.swift */,
-				0B3EB5F325BD4A7600A4AF20 /* SignInWithAppleCoordinator.swift */,
 				0B2B1B8825BB261800D77F4E /* AuthenticationService.swift */,
 				0B2B1B1225B9934800D77F4E /* GoogleService-Info.plist */,
 				0B2B1AC025B95D0800D77F4E /* Main.storyboard */,
@@ -277,6 +272,8 @@
 			isa = PBXGroup;
 			children = (
 				0B3EB5FD25BD860500A4AF20 /* EnvironmentKeys.swift */,
+				0B2B1B6825BB0AFC00D77F4E /* KeyboardAwareModifier.swift */,
+				0B3EB5F325BD4A7600A4AF20 /* SignInWithAppleCoordinator.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -459,7 +456,6 @@
 				0B2B1B9425BB388E00D77F4E /* Room.swift in Sources */,
 				0B3EB5DF25BC7FD900A4AF20 /* UIColor+pallete.swift in Sources */,
 				0B2B1B8125BB131B00D77F4E /* MessagesViewModel.swift in Sources */,
-				0B2B1B5625BA920E00D77F4E /* ChatViewController.swift in Sources */,
 				0B3EB5C125BBF36700A4AF20 /* Document.swift in Sources */,
 				0B2B1B7A25BB0CFA00D77F4E /* MessageView.swift in Sources */,
 				0B8073B325C05F6C0091C7B6 /* RoomDescriptionView.swift in Sources */,
