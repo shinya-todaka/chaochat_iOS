@@ -1,7 +1,7 @@
 # chaochat-iOS
 
 ## 概要 
-reactで開発した[chaochat](https://chaochat.net)をiOSアプリでより使いやすくするためにiOSのクライアントアプリを開発中です。慣れ親しんでいるUIKitではなくSwiftUIで挑戦しています。SwiftUIは難しくコードが汚いのでリファクタリングしながら開発を進めていきたいです。
+reactで開発した[chaochat(Twitterから参加する時間制限を決めれるチャットアプリ)](https://chaochat.net)をiOSアプリでより使いやすくするためにiOSのクライアントアプリを開発中です。慣れ親しんでいるUIKitではなくSwiftUIで挑戦しています。SwiftUIは難しくコードが汚いのでリファクタリングしながら開発を進めています。
 
 ## 環境
 - Xcode 12.3 
