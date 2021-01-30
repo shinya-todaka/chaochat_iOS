@@ -20,6 +20,15 @@
         }
       },
       {
+        "package": "FetchImage",
+        "repositoryURL": "https://github.com/kean/FetchImage.git",
+        "state": {
+          "branch": null,
+          "revision": "3b68b12f25d6060ed102523ebff394c4f8e31cec",
+          "version": "0.3.0"
+        }
+      },
+      {
         "package": "Firebase",
         "repositoryURL": "https://github.com/firebase/firebase-ios-sdk.git",
         "state": {
@@ -62,6 +71,15 @@
           "branch": null,
           "revision": "c2d43e59d8ec880ed261366818f0cacc5c8cc2e6",
           "version": "2.30907.0"
+        }
+      },
+      {
+        "package": "Nuke",
+        "repositoryURL": "https://github.com/kean/Nuke.git",
+        "state": {
+          "branch": null,
+          "revision": "961597d324949c7003c77d602bfc4d5519b47e81",
+          "version": "9.2.4"
         }
       },
       {
